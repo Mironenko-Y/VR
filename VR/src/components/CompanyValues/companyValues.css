@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+.company-values {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 46px;
+  /* background-color: rgb(19, 1, 19); */
+
+  /* delete after adding container */
+  /* height: 200px; */
+  /* max-width: 886px;
+  padding: 20px 15px;
+  margin: 0 auto; */
+  /* background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  ); */
+}
+.company__ellipse {
+  z-index: -1;
+  position: absolute;
+}
+.company-values__main {
+  display: flex;
+
+  margin: 0 auto;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.company-values__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 18px;
+}
+.company-values__title {
+  max-width: 220px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.817px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.company-values__title-heart {
+  display: flex;
+}
+.company-values__img-hearts {
+  position: absolute;
+  align-self: flex-end;
+  padding-left: 75px;
+}
+.company-values__descr {
+  max-width: 260px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+.company-values__benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  column-gap: 40px;
+  row-gap: 20px;
+  max-width: 175px;
+}
+.company-values__benefits-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7.29569px;
+  line-height: 9px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.company-values__benefits-name__img {
+}

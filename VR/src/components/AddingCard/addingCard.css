@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+
+.adding-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 884px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: #fff;
+  background: #09010e;
+}
+.adding-card__img {
+  /* z-index: -1; */
+  width: 842px;
+  margin-bottom: 36px;
+}
+.adding-card__title {
+  padding-top: 27px;
+  align-self: flex-start;
+  padding-left: 40px;
+  position: absolute;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.adding-card__form {
+  gap: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+.adding-card__new {
+  align-self: center;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+.adding-card__name {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 560px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+}
+.adding-card__descr {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 560px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+}
+.adding-card__img-name {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 560px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+}
+.adding-card__btn {
+  padding: 12px 141px 12px 141px;
+  background: #9f62bb;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  cursor: pointer;
+}
+.adding-card__btn:hover {
+  background: #682a85;
+}

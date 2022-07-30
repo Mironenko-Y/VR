@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+.item-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 886px;
+  padding: 18px 15px 0px 18px;
+  margin: 0 auto;
+  align-items: flex-start;
+  background: linear-gradient(
+    180deg,
+    #010208 16.39%,
+    #010206 20.51%,
+    #040008 24.79%,
+    #010101 30.46%,
+    #010101 34.11%,
+    #010101 36.21%,
+    #010101 100%
+  );
+  box-shadow: 14px 31px 38px rgba(24, 23, 55, 0.58);
+  color: white;
+}
+.item-page__article {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.item-page__title {
+  margin-bottom: 24px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.item-page__descritpion {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 150px;
+}

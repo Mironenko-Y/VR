@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 884px;
+  padding: 60px 36px;
+  margin: 0 auto;
+  width: 100%;
+  /* background-color: #010208; */
+}
+.header__title {
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.3516px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header__ellipse {
+  position: absolute;
+  z-index: -1;
+}
+.header__ellipse-img {
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav-items {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5098px;
+  line-height: 15px;
+
+  color: #ffffff;
+  display: flex;
+  gap: 36px;
+}
+
+.header__nav-item--active {
+  background: linear-gradient(99.05deg, #c824ec 0.07%, #df308d 106.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  cursor: pointer;
+}
+.header__nav-item--active::after {
+  content: "";
+  background: #fff;
+  position: static;
+  display: block;
+  /* z-index: -1; */
+  margin-left: 15px;
+  margin-top: 3px;
+  width: 10px;
+  height: 2px;
+}
+.header__nav-item {
+  cursor: pointer;
+  transition: color 0.1s linear;
+}
+.header__nav-item:hover {
+  background: linear-gradient(99.05deg, #c824ec 0.07%, #df308d 106.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  cursor: pointer;
+  /* border-bottom:1px solid #fff; */
+}
+.header__nav-item:hover:after {
+  content: "";
+  background: #fff;
+  /* position: static; */
+  display: flex;
+
+  z-index: -1;
+  margin-left: 25px;
+  margin-top: 3px;
+  width: 10px;
+  height: 2px;
+}
+.header__sign-in-btn {
+  margin-left: 36px;
+  padding: 10px 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5098px;
+  line-height: 15px;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(99.05deg, #bc3cd8 0.07%, #c54b8c 106.32%);
+  border-radius: 3.33594px;
+}
+.header__sign-in-btn:hover {
+  background: linear-gradient(99.05deg, #220d27 0.07%, #c54b8c 106.32%);
+  border-radius: 3.33594px;
+}

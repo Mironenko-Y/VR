@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+
+.headsets {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  /* delete after adding container */
+  max-width: 884px;
+  padding: 15px;
+  margin: 0 auto;
+
+  box-shadow: 14px 31px 38px rgba(24, 23, 55, 0.58);
+  color: #fff;
+}
+.headsets__ellipse {
+  display: flex;
+  z-index: -1;
+  position: absolute;
+}
+.headsets__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.headsets__title {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 27px;
+}
+.headsets__select {
+  display: flex;
+  padding: 3px 6px 3px 6px;
+  color: #fff;
+  border: 1px solid #5a5b6a;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+}
+.headsets__articles {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  gap: 48px;
+  margin-bottom: 24px;
+}
+.headsets__articles-text {
+  position: relative;
+}
+.headsets__articles-box {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(22.6977px);
+  bottom: 0;
+  border-radius: 0 0 0 5px;
+}
+.headsets__articles-title {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7.29569px;
+  line-height: 9px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.headsets__articles-descr {
+  padding: 6px 12px;
+  bottom: 0;
+  font-family: "Inter";
+  font-style: normal;
+  max-width: 100px;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 9px;
+  letter-spacing: -0.02em;
+}
+.headsets__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: #010101;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.pagination-arrow {
+  display: flex;
+  cursor: pointer;
+}
+.pagination-arrow:hover {
+  border: 1px solid #4200ff;
+}
+.pagination__num {
+  padding: 4px 9px;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #dfe3e8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pagination__num:hover {
+  color: #4200ff;
+  border: 1px solid #4200ff;
+}
+.pagination__num--active {
+  color: #4200ff;
+  border: 1px solid #4200ff;
+  padding: 4px 9px 4px 9px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+
+.experience {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 320px;
+
+  /* delete after adding container */
+  /* max-width: 884px; */
+
+  /* margin: 0 auto; */
+
+  /* background: linear-gradient(
+    180deg,
+    #010208 16.39%,
+    #010206 20.51%,
+    #040008 24.79%,
+    #010101 30.46%,
+    #010101 34.11%,
+    #010101 36.21%,
+    #010101 100%
+  );
+  box-shadow: 14px 31px 38px rgba(24, 23, 55, 0.58); */
+  color: #fff;
+}
+
+.experience-item {
+  display: flex;
+
+  position: relative;
+  gap: 18px;
+}
+.experience-item__girl {
+  align-self: flex-start;
+  margin-bottom: 40px;
+}
+.experience-item__boy {
+  align-self: flex-end;
+}
+.experience__text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-self: center;
+  align-items: flex-start;
+  max-width: 220px;
+  max-height: 70px;
+}
+.experience-title {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 33px;
+}
+.experience-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.experience__btns {
+  display: flex;
+  gap: 23px;
+}
+.experience__getIt-btn {
+  padding: 11px 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: #fff;
+  background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+  border-radius: 4px;
+  cursor: pointer;
+}
+.experience__getIt-btn:hover {
+  background: linear-gradient(
+    99.99deg,
+    #682188 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+  color: black;
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+/* font-family: 'Mulish', sans-serif; */
+
+.sign-in__form {
+  padding-top: 20px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #09010e;
+  color: white;
+}
+.sign-in__title {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+.sign-in__user {
+  width: 560px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+.sign-in__password {
+  width: 560px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+.sign-in__btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 129px;
+  padding-right: 129px;
+  background: #9f62bb;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  cursor: pointer;
+}
+.sign-in__btn:hover {
+  background: #b946ee;
+}

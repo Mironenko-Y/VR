@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+
+.explore {
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+.explore__items-img {
+  padding-left: 10px;
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    #aa14f0 -42.59%,
+    rgba(0, 0, 0, 0) -42.59%,
+    #aa14f0 -42.58%,
+    rgba(170, 20, 240, 0.18) 4.35%,
+    rgba(151, 60, 68, 0.055) 99.99%,
+    rgba(185, 54, 245, 0) 100%
+  );
+  border-radius: 7px;
+}
+.explore__items {
+  display: flex;
+  flex-direction: column;
+}
+.explore__info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.explore__title {
+  color: #fff;
+  max-width: 168px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.0345px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+.explore-email__img {
+}
+.explore__descr {
+  color: #fff;
+  margin-bottom: 12px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  /* or 118% */
+
+  letter-spacing: 0.04em;
+}
+.explore__form {
+  display: flex;
+  color: #fff;
+  gap: 11px;
+}
+.explore__email {
+  padding-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.48506px;
+  line-height: 11px;
+  /* or 163% */
+
+  letter-spacing: -0.07em;
+
+  background: linear-gradient(
+    180deg,
+    #aa14f0 -42.59%,
+    rgba(0, 0, 0, 0) -42.59%,
+    #cb8de8 -42.58%,
+    rgba(203, 143, 232, 0.18) 4.35%,
+    rgba(151, 60, 68, 0.055) 99.99%,
+    rgba(199, 137, 228, 0) 100%
+  );
+  box-shadow: inset 0px -9.72759px 16.2127px rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12.1595px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 2px;
+}
+.explore__email-btn {
+  padding: 5px 11px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 8px;
+  background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+  border-radius: 2.44456px;
+}
+.explore__background {
+}

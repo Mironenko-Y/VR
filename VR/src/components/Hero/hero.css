@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* delete after adding container */
+  max-width: 884px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  /* background-color: #010208; */
+}
+.hero__items {
+  display: flex;
+  flex-direction: column;
+}
+.hero__items-title {
+  max-width: 360px;
+  margin-bottom: 24px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 31.6914px;
+  line-height: 43px;
+  /* or 137% */
+
+  color: #ffffff;
+}
+.hero-items__description {
+  max-width: 300px;
+  margin-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+.hero__items-btns {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 24px;
+}
+.hero__items-btns-get {
+  padding: 11px 16px 11px 16px;
+  background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.0622px;
+  line-height: 13px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero__items-btns-get:hover {
+  background: linear-gradient(
+    99.99deg,
+    #490f63 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+}
+.hero__items-btns-explore {
+  padding: 11px 16px 11px 16px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.0622px;
+  line-height: 13px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero__items-btns-explore:hover {
+  background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+  border-radius: 4px;
+}
+.hero__item-online {
+  display: flex;
+  margin-left: 12px;
+}
+.hero__item-online-people {
+  margin-left: -12px;
+}
+.hero__item-online-text {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.0078px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+.hero__ellipse {
+  position: absolute;
+  margin-left: -50px;
+  z-index: -1;
+}
+.hero__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__main-girl {
+}
+.hero__main-descr {
+  gap: 18px;
+  position: absolute;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__main-title {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19.5916px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.hero__main-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.0622px;
+  line-height: 13px;
+  text-align: center;
+  max-width: 210px;
+  color: #ffffff;
+}
+.hero__main-ellipse {
+  display: flex;
+  align-self: flex-end;
+  position: absolute;
+  margin-top: 100px;
+  margin-right: -50px;
+  z-index: -1;
+}
+@media (max-width: 844px) {
+}
